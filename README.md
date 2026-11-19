@@ -4,8 +4,8 @@ Homebrew casks for [fcemtopall](https://github.com/fcemtopall)'s apps.
 
 ## sAlive
 
-Keep your Mac awake from Control Center – even with the lid closed.
-Mac'ini Denetim Merkezi'nden uyanık tut – kapak kapalıyken bile.
+Keep your Mac awake from the menu bar – even with the lid closed.
+Mac'ini menü çubuğundan uyanık tut – kapak kapalıyken bile.
 
 ```sh
 brew install --cask fcemtopall/tap/salive
