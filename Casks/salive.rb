@@ -1,8 +1,8 @@
 # Template for the Homebrew tap (github.com/fcemtopall/homebrew-tap/Casks/salive.rb).
 # The release workflow fills in VERSION and SHA256 and pushes it to the tap.
 cask "salive" do
-  version "1.0.0"
-  sha256 "1691f4c871adf18775472cfde95884444d1f3f60b49a4f5728b6248b29a440d3"
+  version "1.0.1"
+  sha256 "bd7602f4ae53f6edda6c6d0d9af6297199b8d184098e1fd5cf6e786bae46ed33"
 
   url "https://github.com/fcemtopall/sAlive/releases/download/v#{version}/sAlive-#{version}.zip"
   name "sAlive"
@@ -33,8 +33,8 @@ cask "salive" do
   zap trash: "/Library/Application Support/sAlive"
 
   caveats <<~EOS
-    Open sAlive once and allow its helper in
-      System Settings › General › Login Items & Extensions.
-    Then add “Keep Awake” via Control Center › Edit Controls, or run `salive on`.
+    Finish setup with one command (or just open sAlive from Applications):
+      salive on
+    It opens sAlive and System Settings – flip the “sAlive” switch once and you're done.
   EOS
 end
