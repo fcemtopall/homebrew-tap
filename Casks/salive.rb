@@ -1,12 +1,12 @@
 # Template for the Homebrew tap (github.com/fcemtopall/homebrew-tap/Casks/salive.rb).
 # The release workflow fills in VERSION and SHA256 and pushes it to the tap.
 cask "salive" do
-  version "1.0.1"
-  sha256 "bd7602f4ae53f6edda6c6d0d9af6297199b8d184098e1fd5cf6e786bae46ed33"
+  version "1.1.0"
+  sha256 "1f59be722c6d9004989553a1d5cee43a1cefc45b86029f7914635b7b58ac8f1f"
 
   url "https://github.com/fcemtopall/sAlive/releases/download/v#{version}/sAlive-#{version}.zip"
   name "sAlive"
-  desc "Keep the computer awake from Control Center, even with the lid closed"
+  desc "Keep the computer awake from the menu bar, even with the lid closed"
   homepage "https://github.com/fcemtopall/sAlive"
 
   livecheck do
